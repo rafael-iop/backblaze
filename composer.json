@@ -12,10 +12,16 @@
     ],
     "require": {
         "php": ">=5.6",
-        "mhetreramesh/flysystem-backblaze": "^1.0",
+        "mhetreramesh/flysystem-backblaze" : "dev-master#5ef761c9a33d38d4af156b3ada552fee00759692",
         "illuminate/support": "~5.3 | ~5.4",
         "illuminate/cache": "~5.3 | ~5.4"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mhetreramesh/flysystem-backblaze.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Amelia\\Backblaze\\": "src/"
